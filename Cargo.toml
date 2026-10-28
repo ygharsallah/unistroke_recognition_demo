@@ -1,15 +1,15 @@
 [package]
-name = "unistroke-recognition-demo"
+name = "unistroke_recognition_demo"
 version = "0.1.0"
 edition = "2024"
 
-[features]
-dynamic_linking = ["bevy/dynamic_linking"]
-
 [dependencies]
-unistroke_recognition = "0.1.0"
-bevy = "0.20.0"
-bevy_egui = "0.43.1"
+unistroke_recognition = "=0.2.0"
+bevy = "=0.20.0"
+bevy_egui = "=0.43.1"
 
 [profile.dev]
 opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 3

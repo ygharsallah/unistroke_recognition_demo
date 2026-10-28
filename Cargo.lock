@@ -442,7 +442,6 @@ version = "0.20.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8bd0e4ea5ec677698955f9f285221eab78606d8c27b57b889def199c16ce36e6"
 dependencies = [
- "bevy_dylib",
  "bevy_internal",
 ]
 
@@ -800,15 +799,6 @@ dependencies = [
  "log",
  "serde",
  "sysinfo",
-]
-
-[[package]]
-name = "bevy_dylib"
-version = "0.20.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7c85f66301e576bdf48e3bfa8b10d05e1f60a54d1a2ad78309eb21c6eb1b27bc"
-dependencies = [
- "bevy_internal",
 ]
 
 [[package]]
@@ -4523,9 +4513,9 @@ dependencies = [
 
 [[package]]
 name = "ordered-float"
-version = "5.5.1"
+version = "5.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7f59006ce1e204c30956638535b74d317bca99477b9356dfaec54c37f6f600ab"
+checksum = "e2c1f9f56e534ac6a9b8a4600bdf0f530fb393b5f393e7b4d03489c3cf0c3f01"
 dependencies = [
  "num-traits",
 ]
@@ -5735,19 +5725,19 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ebc1c04c71510c7f702b52b7c350734c9ff1295c464a03335b00bb84fc54f853"
 
 [[package]]
-name = "unistroke-recognition-demo"
+name = "unistroke_recognition"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a889bd56c1c7b14042f4fa9a4d2e81d5ec273da458cb567068ba361452c33b1f"
+
+[[package]]
+name = "unistroke_recognition_demo"
 version = "0.1.0"
 dependencies = [
  "bevy",
  "bevy_egui",
  "unistroke_recognition",
 ]
-
-[[package]]
-name = "unistroke_recognition"
-version = "0.1.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7b4ee213f9487241b48c69f296bb9cfaa990b8d723a14358f3686e0eb08a5bb8"
 
 [[package]]
 name = "unsynn"
